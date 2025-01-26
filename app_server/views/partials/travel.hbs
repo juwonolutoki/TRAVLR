@@ -1,0 +1,11 @@
+<ul>
+    {{#each trips}}
+    <li>
+        <img src="{{this.image}}" alt="{{this.destination}}" style="width: 200px; height: auto;">
+        <h2>{{this.destination}}</h2>
+        <p><strong>Price:</strong> ${{this.price}}</p>
+        <p><strong>Description:</strong> {{this.description}}</p>
+    </li>
+    {{/each}}
+</ul>
+

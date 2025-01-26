@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Beachside Paradise",
+      "location": "Maldives",
+      "description": "A luxurious getaway with crystal-clear waters and white sandy beaches.",
+      "price": "$1500"
+    },
+    {
+      "name": "Mountain Retreat",
+      "location": "Swiss Alps",
+      "description": "Experience the serene beauty of the mountains.",
+      "price": "$2000"
+    },
+    {
+      "name": "Cultural Adventure",
+      "location": "Kyoto, Japan",
+      "description": "Discover ancient temples, beautiful gardens, and rich traditions.",
+      "price": "$1800"
+    }
+  ]
+  
