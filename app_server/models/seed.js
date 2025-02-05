@@ -1,9 +1,9 @@
 const Trip = require('./travlr');
 const mongoose = require('./database');
 const sampleTrips = [
-    { code: 'T001', name: 'Hawaii Adventure', length: '7 days', start: new Date(), resort: 'Waikiki Resort', perPerson: '$1500', image: 'hawaii.jpg', description: 'A relaxing trip to Hawaii.' },
-    { code: 'T002', name: 'Alaska Cruise', length: '5 days', start: new Date(), resort: 'Glacier Bay', perPerson: '$2000', image: 'alaska.jpg', description: 'Experience the icy wonders of Alaska.' },
-    { code: 'T003', name: 'Paris Getaway', length: '4 days', start: new Date(), resort: 'Eiffel Suites', perPerson: '$1800', image: 'paris.jpg', description: 'Romantic getaway in Paris.' }
+    { name: 'Gale Reef', image: 'reef1.jpg', description: '<p>Gale Reef - Sed et augue lorem. In sit amet placeraand white sandy beaches.</p>', price: '$1500' },
+    { name: "Dawson's Reef", image: 'reef2.jpg', description: "<p>Dawson's Reef - Experience the serene beauty of the mountains.</p>", price: '$2000' },
+    { name: "Claire's Reef", image: 'reef3.jpg', description: "<p>Claire's Reef - Discover ancient temples, beautiful gardens, and rich traditions.</p>", price: '$1800' }
 ];
 
 const seedDB = async () => {
@@ -12,5 +12,3 @@ const seedDB = async () => {
     console.log('Database seeded!');
     mongoose.connection.close();
 };
-
-seedDB();
